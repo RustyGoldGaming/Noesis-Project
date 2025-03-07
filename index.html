@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noesis Project Terminal</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="background">
+        <button id="powerButton"></button>
+
+        <div class="monitor">
+            <!-- Video element that starts with Monster_Corp_2.webm -->
+            <video id="monitorVideo" width="100%" height="100%" autoplay muted>
+                <source id="videoSource" src="Monster_Corp_2.webm" type="video/webm">
+                Your browser does not support the video tag.
+            </video>
+            <div class="screen" id="screen">
+                <p id="output"></p>
+                <div id="redX">✖</div>
+            </div>
+        </div>
+
+        <!-- Input box is now outside the monitor -->
+        <input type="text" id="commandInput" placeholder="" disabled>
+    </div>
+
+    <!-- Audio Elements -->
+    <audio id="errorSound" src="buzzer.mp3"></audio>
+    <audio id="correctSound" src="correct.mp3"></audio>
+    <audio id="bgMusic" src="background.mp3" loop></audio>
+</body>
+</html>

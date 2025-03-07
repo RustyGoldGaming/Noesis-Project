@@ -1,0 +1,172 @@
+body {
+    background: black;
+    color: #00ff00;
+    font-family: 'Courier New', monospace;
+    text-align: center;
+    overflow: hidden;
+}
+
+.background {
+    width: 100vw;
+    height: 100vh;
+    background: url('background.jpg') no-repeat center center;
+    background-size: cover;
+    transition: filter 1.5s ease-in-out;
+    filter: brightness(10%);
+}
+
+.monitor {
+    position: absolute;
+    top: 51.6%;
+    left: 50.4%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: 380px;
+    background: #111; /* Ensure the background stays visible */
+    border: 10px solid #444;
+    padding: 10px;
+    box-shadow: none;
+    opacity: 0;
+    transition: opacity 1.5s ease-in-out, box-shadow 1.5s ease-in-out;
+    filter: url(#crt-effect);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* Keeps input box in place */
+    align-items: center;
+    position: relative;
+}
+
+#monitorVideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1; /* Lower than text */
+    mix-blend-mode: screen; /* Ensures transparency */
+    pointer-events: none; /* Prevents interaction issues */
+}
+
+.screen {
+    width: 100%;
+    height: 100%;
+    color: #00ff00;
+    font-size: 18px;
+    white-space: pre-wrap;
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2; /* Ensures text is above video */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#output {
+    position: relative;
+    z-index: 3; /* Ensures text is above video */
+}
+
+@keyframes flicker {
+    0% { opacity: 0; }
+    20% { opacity: 1; }
+    40% { opacity: 0; }
+    60% { opacity: 1; }
+    80% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.screen::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: repeating-linear-gradient(
+        to bottom,
+        rgba(0, 255, 0, 0.05),
+        rgba(0, 255, 0, 0.15) 2px,
+        rgba(0, 255, 0, 0.05) 4px
+    );
+    opacity: 0.3;
+    pointer-events: none;
+    z-index: 2; /* Ensures scanlines are visible */
+}
+
+#redX {
+    font-size: 100px;
+    color: red;
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3; /* Ensures visibility */
+}
+
+#commandInput {
+    position: absolute;
+    top: calc(51.6% + 213px); /* Moves input box just below the monitor */
+    left: 50.4%;
+    transform: translateX(-50%);
+    width: 250px;
+    height: 40px;
+    font-size: 16px;
+    padding: 5px;
+    background: black;
+    color: #00ff00;
+    border: 1px solid #00ff00;
+    text-align: left;
+    opacity: 1;
+    text-transform: uppercase;
+    z-index: 5; /* Keeps it above background but below monitor */
+}
+
+
+#powerButton {
+    position: absolute;
+    top: 84.3%;
+    left: 37.7%;
+    transform: translate(-50%, -50%);
+    width: 108px;
+    height: 38px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 10;
+}
+
+#powerButton:focus {
+    outline: none;
+}
+
+.hidden {
+    visibility: visible /* Instead of display: none */
+    pointer-events: auto; /* Allows it to remain clickable */
+}
+
+.active {
+    opacity: 1 !important;
+    filter: brightness(100%) !important;
+    box-shadow: 0 0 20px #0f0 !important;
+}
+
+.active .screen {
+    animation: flicker 1.5s linear;
+    opacity: 1 !important;
+}
+
+.active input {
+    opacity: 1 !important;
+}
+
+/* CRT Effect */
+svg {
+    position: absolute;
+    width: 0;
+    height: 0;
+}
