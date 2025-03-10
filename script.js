@@ -183,10 +183,10 @@ function processCommand() {
 
         correctSound.play();
 
-        if (response.startsWith("REDIRECT:")) {
-            // Extract URL and redirect the user
-            let url = response.replace("REDIRECT:", "").trim();
-            window.open(url, "_blank"); // Opens in a new tab
+        if (response.includes("REDIRECT:")) {
+    // Extract the URL and redirect the user
+    let url = response.split("REDIRECT:")[1].trim();
+    window.open(url, "_blank"); // Opens in a new tab
         } 
         else if (response.startsWith("OPEN_IMAGE:")) {
             // Extract image filename and display it
