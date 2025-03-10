@@ -71,6 +71,8 @@ document.addEventListener("DOMContentLoaded", function () {
         "EVAN NEWS BLUE": ">> [REDACTED]",
         "MICROWAVE": ">> CATALYST.",
         "HINT": ">> TRY ALT+F4.",
+        "CLUE": ">> TRY ALT+F4.",
+        "HELP": ">> TRY ALT+F4.",
         "ANSWER": ">> QUESTION?",
         "QUESTION": ">> ANSWER.",
         "WHAT": ">> WHEN.",
@@ -160,7 +162,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Allow Enter key to submit commands
     inputField.addEventListener("keydown", function (event) {
         if (event.key === "Enter") {
-            processCommand();
+            Command();
         }
     });
 
@@ -172,44 +174,77 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     // Process command function (Restores Red X and error sound)
-    function processCommand() {
-        let command = inputField.value.trim().toUpperCase();
-        inputField.value = "";
+function processCommand() {
+    let command = inputField.value.trim().toUpperCase();
+    inputField.value = "";
 
-        if (commands[command]) {
-            let response = commands[command];
+    if (commands[command]) {
+        let response = commands[command];
 
-            correctSound.play();
-            if (video) {
-                video.style.display = "none";
-                video.pause();
+        correctSound.play();
+
+        if (response.startsWith("REDIRECT:")) {
+            // Extract URL and redirect the user
+            let url = response.replace("REDIRECT:", "").trim();
+            window.open(url, "_blank"); // Opens in a new tab
+        } 
+        else if (response.startsWith("OPEN_IMAGE:")) {
+            // Extract image filename and display it
+            let imageName = response.replace("OPEN_IMAGE:", "").trim();
+            let img = document.createElement("img");
+            img.src = imageName;
+            img.id = "overlayImage";
+            img.style.position = "absolute";
+            img.style.top = "50%";
+            img.style.left = "50%";
+            img.style.transform = "translate(-50%, -50%)";
+            img.style.maxWidth = "80%";
+            img.style.maxHeight = "80%";
+            img.style.border = "5px solid white";
+            img.style.boxShadow = "0px 0px 20px rgba(255, 255, 255, 0.8)";
+            img.style.zIndex = "1000";
+            img.style.backgroundColor = "black";
+
+            // Remove any existing overlay images before adding a new one
+            let existingImg = document.getElementById("overlayImage");
+            if (existingImg) {
+                existingImg.remove();
             }
+
+            document.body.appendChild(img);
+
+            // Clicking the image removes it
+            img.addEventListener("click", function() {
+                img.remove();
+            });
+        } 
+        else {
+            // Default behavior: Display text on the monitor
             output.textContent = response;
-
-            setTimeout(() => {
-                if (video) {
-                    video.style.display = "block";
-                    video.play();
-                }
-                output.textContent = "";
-            }, 5000);
-        } else {
-            // Error handling: Show Red X, play buzzer sound, then restore video
-            errorSound.play();
-            if (video) {
-                video.style.display = "none";
-                video.pause();
-            }
-            redX.style.display = "block";
-            output.textContent = "";
-
-            setTimeout(() => {
-                redX.style.display = "none";
-                if (video) {
-                    video.style.display = "block";
-                    video.play();
-                }
-            }, 1000);
         }
+
+        // Restore looping video after 5 seconds if not a redirect or image
+        if (!response.startsWith("REDIRECT:") && !response.startsWith("OPEN_IMAGE:")) {
+            setTimeout(() => {
+                output.textContent = "";
+                video.style.display = "block";
+                video.play();
+            }, 5000);
+        }
+    } else {
+        // Handle incorrect input
+        errorSound.play();
+        video.style.display = "none";
+        video.pause();
+        redX.style.display = "block";
+        output.textContent = "";
+
+        setTimeout(() => {
+            redX.style.display = "none";
+            video.style.display = "block";
+            video.play();
+        }, 1000);
     }
+}
+
 });
