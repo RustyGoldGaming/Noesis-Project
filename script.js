@@ -45,13 +45,13 @@ document.addEventListener("DOMContentLoaded", function () {
         "INSIDE JOB": ">> BETTER TO BE AN \"INNIE\" THAN AN \"OUTIE\".",
         "RIDDLE SCHOOL": ">> BREAD CRUMBS AND BEAVER SPIT",
         "ESCAPE ACADEMY": ">> A RESPECTABLE INSTITUTION. ARE YOU A GRADUATE?",
-        "GERALDEEN": ">> “AT NIGHT I DREAM OF GERALDEEN CONSISTENTLY”
-			_../|_
-                    ='__   _~-.
-                         \'  ~-`\._
-                               |/~`
-                 .    .    .    .    .
-              _.`(._.`(._.`(._.`(._.`(._",
+        "GERALDEEN": `>> “AT NIGHT I DREAM OF GERALDEEN CONSISTENTLY”\n
+                          _../|_  \n
+                        ='__   _~-.  \n
+                            \\\'  ~-\\._  \n
+                                 |/~\\\`  \n
+                 .    .    .    .    .  \n
+             _.\\\`(._.\\\`(._.\\\`(._.\\\`(._.\\\`(._.``,
         "MONSTER CORP": ">> I WONDER WHAT ALL THESE SERVERS DO NOW THAT NOBODY IS HERE TO USE THEM ANYMORE?\n>> AT LEAST THIS ONE SAYS IT COMES WITH A '99.9% STABILITY GUARANTEE'!*\n>> THAT'S ALMOST 100%!",
         "MONSTER CORP.": ">> I WONDER WHAT ALL THESE SERVERS DO NOW THAT NOBODY IS HERE TO USE THEM ANYMORE?\n>> AT LEAST THIS ONE SAYS IT COMES WITH A '99.9% STABILITY GUARANTEE'!*\n>> THAT'S ALMOST 100%!",
         "SIGURD": ">> YOU’RE A LITTLE LOST, I THINK YOU'VE GOT THE WRONG GAME.",
