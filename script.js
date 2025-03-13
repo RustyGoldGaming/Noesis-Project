@@ -51,8 +51,7 @@ document.addEventListener("DOMContentLoaded", function () {
 "                            .'  ~- ._  \n" + 
 "                                 |/~'  \n" + 
 "                 .    .    .    .    .  \n" + 
-"             _.`(._.`(._.`(._.`(._.`(._."
-
+"             _.`(._.`(._.`(._.`(._.`(._.",
         "MONSTER CORP": ">> I WONDER WHAT ALL THESE SERVERS DO NOW THAT NOBODY IS HERE TO USE THEM ANYMORE?\n>> AT LEAST THIS ONE SAYS IT COMES WITH A '99.9% STABILITY GUARANTEE'!*\n>> THAT'S ALMOST 100%!",
         "MONSTER CORP.": ">> I WONDER WHAT ALL THESE SERVERS DO NOW THAT NOBODY IS HERE TO USE THEM ANYMORE?\n>> AT LEAST THIS ONE SAYS IT COMES WITH A '99.9% STABILITY GUARANTEE'!*\n>> THAT'S ALMOST 100%!",
         "SIGURD": ">> YOU’RE A LITTLE LOST, I THINK YOU'VE GOT THE WRONG GAME.",
@@ -75,8 +74,6 @@ document.addEventListener("DOMContentLoaded", function () {
         "AXOLOTL": ">> THERE’S AN AXOLOTL ON THE PINK STAIRS. IS AN AXOLOTL SUPPOSED TO BE THERE? IF YOU ASK AN AXOLOTL IF THEY’LL BE BACK TOMORROW, A PENGUIN WADDLES IN AND THEN THE AXOLOTL’S GONE.",
         "WHO ARE YOU": ">> I COULD ASK YOU THE SAME THING.",
         "WHO ARE YOU?": ">> I COULD ASK YOU THE SAME THING.",
-        "EVANNEWS BLUE": ">> [REDACTED]",
-        "EVAN NEWS BLUE": ">> [REDACTED]",
         "MICROWAVE": ">> CATALYST.",
         "HINT": ">> TRY ALT+F4.",
         "CLUE": ">> TRY ALT+F4.",
@@ -128,8 +125,14 @@ document.addEventListener("DOMContentLoaded", function () {
 	"ORIGINAL EVAN": ">> HIS WORK WAS TOO POWERFUL. SO THEY TOOK IT FROM HIM.",
 	"HI": ">> ヾ(＾ ∇ ＾).",
 	"HELLO": ">> ヾ( ˃ᴗ˂ )◞ • *✰",
+	"MEWTWO": ">> I SEE NOW THAT THE CIRCUMSTANCES OF ONES BIRTH ARE IRRELEVANT...",
 	"AIGLATSON": ">> SYSTEM QUERY RECEIVED. START SECURITY QUESTIONS?",
 	"NO": ">> SYSTEM QUERY ABORTED.",
+        "YES": ">> ON WHAT CHANNEL DID THE DOCUMENTARY ENTERTAINMENT WEB SERIES EVAN NEWS UNSOLVED FIRST APPEAR?",
+        "EVAN NEWS BLUE": ">> WHAT WAS YOUR SENIOR QUOTE?",
+        "EVANNEWS BLUE": ">> WHAT WAS YOUR SENIOR QUOTE?",
+        "IT IS WHAT YOU DO WITH THE GIFT OF LIFE THAT DETERMINES WHO YOU ARE": ">> [REDACTED]",
+        "IT IS WHAT YOU DO WITH THE GIFT OF LIFE THAT DETERMINES WHO YOU ARE.": ">> [REDACTED]",
 
 
     };
