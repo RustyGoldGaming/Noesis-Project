@@ -165,12 +165,13 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 
-    // Allow Enter key to submit commands
-    inputField.addEventListener("keydown", function (event) {
-        if (event.key === "Enter") {
-            Command();
-        }
-    });
+// Allow Enter key to submit commands 
+inputField.addEventListener("keydown", function (event) {
+    if (event.key === "Enter") {
+        processCommand(); // ✅ Calls the correct function
+    }
+});
+
 
     // Ensure power button submits commands after startup
     powerButton.addEventListener("click", function () {
