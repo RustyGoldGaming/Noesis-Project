@@ -137,6 +137,8 @@ document.addEventListener("DOMContentLoaded", function () {
         "NOBLES": ">> WHERE WAS MONSTER CORP FOUNDED?",
         "PRIPYAT": ">> WHAT WAS THE NAME OF THE OTHER ASTRONAUT IN HUGO FIRST?",
         "TROY": ">> DETECTIVE EVANS IMPOSSIBLE NUMBER?",
+        "THEY ARE WATCHING": "OPEN_IMAGE: Theyarewatching.png",
+
 
 
     };
