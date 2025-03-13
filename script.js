@@ -45,13 +45,13 @@ document.addEventListener("DOMContentLoaded", function () {
         "INSIDE JOB": ">> BETTER TO BE AN \"INNIE\" THAN AN \"OUTIE\".",
         "RIDDLE SCHOOL": ">> BREAD CRUMBS AND BEAVER SPIT",
         "ESCAPE ACADEMY": ">> A RESPECTABLE INSTITUTION. ARE YOU A GRADUATE?",
-        "GERALDEEN": ">> AT NIGHT I DREAM OF GERALDEEN CONSISTENTLY\n\n" + 
-"                          _../|_  \n" + 
-"                        ='__   _~-.  \n" + 
-"                            .'  ~- ._  \n" + 
-"                                 |/~'  \n" + 
-"                 .    .    .    .    .  \n" + 
-"             _.`(._.`(._.`(._.`(._.`(._.",
+        "GERALDEEN": ">> ❝AT NIGHT I DREAM OF GERALDEEN CONSISTENTLY❞\n\n" + 
+"                      _../|_  \n" + 
+"                   ='__   _~-.  \n" + 
+"                         .'  ~- ._  \n" + 
+"                                |/~'  \n" + 
+"               .    .    .    .    .  \n" + 
+"           _.`(._.`(._.`(._.`(._.`(._.",
         "MONSTER CORP": ">> I WONDER WHAT ALL THESE SERVERS DO NOW THAT NOBODY IS HERE TO USE THEM ANYMORE?\n>> AT LEAST THIS ONE SAYS IT COMES WITH A '99.9% STABILITY GUARANTEE'!*\n>> THAT'S ALMOST 100%!",
         "MONSTER CORP.": ">> I WONDER WHAT ALL THESE SERVERS DO NOW THAT NOBODY IS HERE TO USE THEM ANYMORE?\n>> AT LEAST THIS ONE SAYS IT COMES WITH A '99.9% STABILITY GUARANTEE'!*\n>> THAT'S ALMOST 100%!",
         "SIGURD": ">> YOU’RE A LITTLE LOST, I THINK YOU'VE GOT THE WRONG GAME.",
@@ -131,8 +131,12 @@ document.addEventListener("DOMContentLoaded", function () {
         "YES": ">> ON WHAT CHANNEL DID THE DOCUMENTARY ENTERTAINMENT WEB SERIES EVAN NEWS UNSOLVED FIRST APPEAR?",
         "EVAN NEWS BLUE": ">> WHAT WAS YOUR SENIOR QUOTE?",
         "EVANNEWS BLUE": ">> WHAT WAS YOUR SENIOR QUOTE?",
-        "IT IS WHAT YOU DO WITH THE GIFT OF LIFE THAT DETERMINES WHO YOU ARE": ">> [REDACTED]",
-        "IT IS WHAT YOU DO WITH THE GIFT OF LIFE THAT DETERMINES WHO YOU ARE.": ">> [REDACTED]",
+        "IT IS WHAT YOU DO WITH THE GIFT OF LIFE THAT DETERMINES WHO YOU ARE": ">> WHAT IS YOUR TEAM NAME?",
+        "IT IS WHAT YOU DO WITH THE GIFT OF LIFE THAT DETERMINES WHO YOU ARE.": ">> WHAT IS YOUR TEAM NAME?",
+        "X5 NOBLES": ">> WHERE WAS MONSTER CORP FOUNDED?",
+        "NOBLES": ">> WHERE WAS MONSTER CORP FOUNDED?",
+        "PRIPYAT": ">> WHAT WAS THE NAME OF THE OTHER ASTRONAUT IN HUGO FIRST?",
+        "TROY": ">> DETECTIVE EVANS IMPOSSIBLE NUMBER?",
 
 
     };
