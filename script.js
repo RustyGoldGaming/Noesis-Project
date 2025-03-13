@@ -48,10 +48,11 @@ document.addEventListener("DOMContentLoaded", function () {
         "GERALDEEN": `>> “AT NIGHT I DREAM OF GERALDEEN CONSISTENTLY”\n
                           _../|_  \n
                         ='__   _~-.  \n
-                            \\\'  ~-\\._  \n
-                                 |/~\\\`  \n
+                            \\'  ~-\\._  \n
+                                 |/~\\'  \n
                  .    .    .    .    .  \n
-             _.\\\`(._.\\\`(._.\\\`(._.\\\`(._.\\\`(._.``,
+             _.\\`(._.\\`(._.\\`(._.\\`(._.\\`(._.`
+`,
         "MONSTER CORP": ">> I WONDER WHAT ALL THESE SERVERS DO NOW THAT NOBODY IS HERE TO USE THEM ANYMORE?\n>> AT LEAST THIS ONE SAYS IT COMES WITH A '99.9% STABILITY GUARANTEE'!*\n>> THAT'S ALMOST 100%!",
         "MONSTER CORP.": ">> I WONDER WHAT ALL THESE SERVERS DO NOW THAT NOBODY IS HERE TO USE THEM ANYMORE?\n>> AT LEAST THIS ONE SAYS IT COMES WITH A '99.9% STABILITY GUARANTEE'!*\n>> THAT'S ALMOST 100%!",
         "SIGURD": ">> YOU’RE A LITTLE LOST, I THINK YOU'VE GOT THE WRONG GAME.",
@@ -127,7 +128,8 @@ document.addEventListener("DOMContentLoaded", function () {
 	"ORIGINAL EVAN": ">> HIS WORK WAS TOO POWERFUL. SO THEY TOOK IT FROM HIM.",
 	"HI": ">> ヾ(＾ ∇ ＾).",
 	"HELLO": ">> ヾ( ˃ᴗ˂ )◞ • *✰",
-
+	"AIGLATSON": ">> SYSTEM QUERY RECEIVED. START SECURITY QUESTIONS?",
+	"NO": ">> SYSTEM QUERY ABORTED.",
 
 
     };
