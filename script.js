@@ -115,6 +115,12 @@ document.addEventListener("DOMContentLoaded", function () {
 	"X5": ">> GO NOBLES!",
 	"XENON": ">> TODAY, IT IS USED IN LIGHTING APPLICATIONS, MEDICAL PROCEDURES, AND AS A PROPELLANT IN SPACE PROPULSION SYSTEMS. \n>> IN THE FUTURE, IT IS A FANTASTIC SOURCE OF ENERGY.",
         "PRIPYAT": ">> TOO MUCH RADIATION FOR EVEN MONSTER CORP TO STAY LONG. \n>> THEY LEFT IN ‘86. \n>> BUT SOMETHING STAYED.",
+        "CIPHER": "OPEN_IMAGE: cipher-message.png",
+	"EVAN PRIME": ">> HIS WORK WAS TOO POWERFUL. SO THEY TOOK IT FROM HIM.",
+	"ORIGINAL EVAN": ">> HIS WORK WAS TOO POWERFUL. SO THEY TOOK IT FROM HIM.",
+
+
+
     };
     powerButton.addEventListener("click", function () {
         if (!systemOn) {
