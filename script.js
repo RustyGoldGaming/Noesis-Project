@@ -225,9 +225,24 @@ function processCommand() {
             });
         } 
         else {
-            // Default behavior: Display text on the monitor
-            output.textContent = response;
+    // Hide the video and display text
+    if (video) {
+        video.style.display = "none";
+        video.pause();
+    }
+
+    output.textContent = response;
+
+    // Restore looping video after 5 seconds
+    setTimeout(() => {
+        output.textContent = "";
+        if (video) {
+            video.style.display = "block";
+            video.play();
         }
+    }, 5000);
+}
+
 
         // Restore looping video after 5 seconds if not a redirect or image
         if (!response.startsWith("REDIRECT:") && !response.startsWith("OPEN_IMAGE:")) {
