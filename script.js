@@ -140,6 +140,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "EVAN PRIME": "OPEN_IMAGE: evanprimelore.png",
         "EVAN 0001": "OPEN_IMAGE: evanprimelore.png",
         "EVAN 1": "OPEN_IMAGE: evanprimelore.png",
+        "THEY ARE WATCHING": "OPEN_IMAGE: theyarewatching.png",
 
 
 
@@ -230,17 +231,15 @@ function processCommand() {
             img.style.transform = "translate(-50%, -50%)";
             img.style.maxWidth = "80%";
             img.style.maxHeight = "80%";
-            img.style.border = "5px solid white";
             img.style.boxShadow = "0px 0px 20px rgba(255, 255, 255, 0.8)";
-            img.style.zIndex = "1000";
-            img.style.backgroundColor = "black";
+            img.style.zIndex = "1000"
 
             // Remove any existing overlay images before adding a new one
             let existingImg = document.getElementById("overlayImage");
             if (existingImg) {
                 existingImg.remove();
             }
-
+    document.getElementById("paperSound").play();  
             document.body.appendChild(img);
 
             // Clicking the image removes it
