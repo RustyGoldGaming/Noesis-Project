@@ -122,8 +122,6 @@ document.addEventListener("DOMContentLoaded", function () {
         "PRIPYAT": ">> TOO MUCH RADIATION FOR EVEN MONSTER CORP TO STAY LONG. \n>> THEY LEFT IN ‘86. \n>> BUT SOMETHING STAYED.",
         "CIPHER": "OPEN_IMAGE: cipher-message.png",
         "CODE": "OPEN_IMAGE: cipher-message.png",
-	"EVAN PRIME": ">> HIS WORK WAS TOO POWERFUL. SO THEY TOOK IT FROM HIM.",
-	"ORIGINAL EVAN": ">> HIS WORK WAS TOO POWERFUL. SO THEY TOOK IT FROM HIM.",
 	"HI": ">> ヾ(＾ ∇ ＾).",
 	"HELLO": ">> ヾ( ˃ᴗ˂ )◞ • *✰",
 	"MEWTWO": ">> I SEE NOW THAT THE CIRCUMSTANCES OF ONES BIRTH ARE IRRELEVANT...",
@@ -138,7 +136,11 @@ document.addEventListener("DOMContentLoaded", function () {
         "NOBLES": ">> WHERE WAS MONSTER CORP FOUNDED?",
         "PRIPYAT": ">> WHAT WAS THE NAME OF THE OTHER ASTRONAUT IN HUGO FIRST?",
         "TROY": ">> DETECTIVE EVANS IMPOSSIBLE NUMBER?",
-        "THEY ARE WATCHING": "OPEN_IMAGE: Theyarewatching.png",
+        "ORIGINAL EVAN": "OPEN_IMAGE: evanprimelore.png",
+        "EVAN PRIME": "OPEN_IMAGE: evanprimelore.png",
+        "EVAN 0001": "OPEN_IMAGE: evanprimelore.png",
+        "EVAN 1": "OPEN_IMAGE: evanprimelore.png",
+
 
 
 
