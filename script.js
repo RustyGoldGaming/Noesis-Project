@@ -140,7 +140,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "EVAN PRIME": "OPEN_IMAGE: evanprimelore.png",
         "EVAN 0001": "OPEN_IMAGE: evanprimelore.png",
         "EVAN 1": "OPEN_IMAGE: evanprimelore.png",
-        "THEY ARE WATCHING": "OPEN_IMAGE: theyarewatching.png",
+        "THEY ARE WATCHING": "OPEN_IMAGE: Theyarewatching.png",
 
 
 
