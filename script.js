@@ -310,17 +310,19 @@ tempVideo.onended = function () {
     tempVideo.remove();
     output.textContent = videoResponse;
 
-    // Wait 5 seconds before clearing text, THEN start atom video
+    // Ensure atom video stays hidden and paused
+    video.style.display = "none";
+    video.pause();
+
+    // Wait 5 seconds before clearing text and bringing back the atom video
     setTimeout(() => {
         output.textContent = "";
-        
-        // Ensure the atom video doesn't start playing early
-        setTimeout(() => {
-            video.style.display = "block";
-            video.play();
-        }, 500); // Small delay before playing
+        video.style.display = "block";
+        video.currentTime = 0; // Restart the atom animation from the beginning
+        video.play();
     }, 5000);
 };
+
 
 } 
         else {
