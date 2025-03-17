@@ -22,7 +22,8 @@ document.addEventListener("DOMContentLoaded", function () {
     correctSound.volume = 0.8;
 
     const commands = {
-        "GLASSES": ">> DON’T CALL ME FOUR EYES",
+        "GLASSES": ">> DON’T CALL ME FOUR EYES.",
+        "ANTHONY": ">> YOU REMEMBERED!",
         "BLOWHOLE": ">> DO NOT LET AIRLINE TSA SEE BLOWHOLE AFFILIATED MERCHANDISE OR TATTOOS.",
         "BLOW HOLE": ">> DO NOT LET AIRLINE TSA SEE BLOWHOLE AFFILIATED MERCHANDISE OR TATTOOS.",
         "TATTOO": ">> DO NOT LET AIRLINE TSA SEE BLOWHOLE AFFILIATED MERCHANDISE OR TATTOOS.",
@@ -66,6 +67,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "VPN": ">> YOU SHOULD GET ONE.\n>>113.57.218.25",
         "TURTLE": ">> SOME EVANS WERE LUCKIER THAN OTHER EVANS.",
         "HDMI CABLE": ">> GOOD TASTE. REDIRECT: https://soundcloud.com/rustygold-gaming/albums",
+        "RUSTYGOLD SINGING": ">> GOOD TASTE. REDIRECT: https://soundcloud.com/rustygold-gaming/albums",
         "HDMI": ">> GOOD TASTE. REDIRECT: https://soundcloud.com/rustygold-gaming/albums",
         "CAESAR": ">> REDIRECT: https://littlecaesars.com/en-us/",
         "CAESAR LITTLE": ">> REDIRECT: https://littlecaesars.com/en-us/",
@@ -78,6 +80,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "WHO ARE YOU": ">> I COULD ASK YOU THE SAME THING.",
         "WHO ARE YOU?": ">> I COULD ASK YOU THE SAME THING.",
         "WHO AM I?": ">> REDIRECT: https://en.wikipedia.org/wiki/Dissociative_amnesia",
+        "WHO AM I": ">> REDIRECT: https://en.wikipedia.org/wiki/Dissociative_amnesia",
         "MICROWAVE": ">> CATALYST.",
         "HINT": ">> TRY ALT+F4.",
         "CLUE": ">> TRY ALT+F4.",
@@ -149,6 +152,31 @@ document.addEventListener("DOMContentLoaded", function () {
         "EVAN 0001": "OPEN_IMAGE: evanprimelore.png",
         "EVAN 1": "OPEN_IMAGE: evanprimelore.png",
         "THEY ARE WATCHING": "OPEN_IMAGE: Theyarewatching.png",
+	"RUSTYGOLD GAMING": "OPEN_VIDEO: rustygold.webm: >> WELCOME BACK, OPERATOR. DATABASE SYNCHRONIZED. SYSTEM LOG UPDATED. A SYSTEM UPDATE IS RECOMMENDED. CURRENT SYSTEM VERSION\: 5-k2Sp",
+	"RUSTYGOLD": "OPEN_VIDEO: rustygold.webm: >> WELCOME BACK, OPERATOR. DATABASE SYNCHRONIZED. SYSTEM LOG UPDATED. A SYSTEM UPDATE IS RECOMMENDED. CURRENT SYSTEM VERSION\: 5-k2Sp",
+	"RUSTY GOLD": "OPEN_VIDEO: rustygold.webm: >> WELCOME BACK, OPERATOR. DATABASE SYNCHRONIZED. SYSTEM LOG UPDATED. A SYSTEM UPDATE IS RECOMMENDED. CURRENT SYSTEM VERSION\: 5-k2Sp",
+	"RUSTY": "OPEN_VIDEO: rustygold.webm: >> WELCOME BACK, OPERATOR. DATABASE SYNCHRONIZED. SYSTEM LOG UPDATED. A SYSTEM UPDATE IS RECOMMENDED. CURRENT SYSTEM VERSION\: 5-k2Sp",
+	"RUSTYGOLDGAMING": "OPEN_VIDEO: rustygold.webm: >> WELCOME BACK, OPERATOR. DATABASE SYNCHRONIZED. SYSTEM LOG UPDATED. A SYSTEM UPDATE IS RECOMMENDED. CURRENT SYSTEM VERSION\: 5-k2Sp",
+	"YOURCOUSINCARSON": "OPEN_VIDEO: yourcousincarson.webm: >> IDENTIFICATION CONFIRMED.",
+	"CARSON": "OPEN_VIDEO: yourcousincarson.webm: >> IDENTIFICATION CONFIRMED.",
+	"CARSON LANDRY": "OPEN_VIDEO: yourcousincarson.webm: >> IDENTIFICATION CONFIRMED.",
+	"LANDRY": "OPEN_VIDEO: yourcousincarson.webm: >> IDENTIFICATION CONFIRMED.",
+	"JK9SQUID": "OPEN_VIDEO: jk9squid.webm: >> IDENTIFICATION CONFIRMED.",
+	"JACK": "OPEN_VIDEO: jk9squid.webm: >> IDENTIFICATION CONFIRMED.",
+	"REICHBART": "OPEN_VIDEO: jk9squid.webm: >> IDENTIFICATION CONFIRMED.",
+	"JACK REICHBART": "OPEN_VIDEO: jk9squid.webm: >> IDENTIFICATION CONFIRMED.",
+	"MAGNUS": "OPEN_VIDEO: jk9squid.webm: >> IDENTIFICATION CONFIRMED.",
+	"ALEX": "OPEN_VIDEO: forrestfire720.webm: >> IDENTIFICATION CONFIRMED.",
+	"ALEXANDER KIM": "OPEN_VIDEO: forrestfire720.webm: >> IDENTIFICATION CONFIRMED.",
+	"ALEXANDER": "OPEN_VIDEO: forrestfire720.webm: >> IDENTIFICATION CONFIRMED.",
+	"FORRESTFIRE720": "OPEN_VIDEO: forrestfire720.webm: >> IDENTIFICATION CONFIRMED.",
+	"FORRESTFIRE": "OPEN_VIDEO: forrestfire720.webm: >> IDENTIFICATION CONFIRMED.",
+	"KIM": "OPEN_VIDEO: forrestfire720.webm: >> IDENTIFICATION CONFIRMED.",
+	"TOM": "OPEN_VIDEO: sweetteev.webm: >> IDENTIFICATION CONFIRMED.",
+	"THOMAS": "OPEN_VIDEO: sweetteev.webm: >> IDENTIFICATION CONFIRMED.",
+	"THOMAS MARTIN": "OPEN_VIDEO: sweetteev.webm: >> IDENTIFICATION CONFIRMED.",
+	"THOMAS ALAN MARTIN": "OPEN_VIDEO: sweetteev.webm: >> IDENTIFICATION CONFIRMED.",
+	"SWEETTEEV": "OPEN_VIDEO: sweetteev.webm: >> IDENTIFICATION CONFIRMED.",
 
 
 
@@ -255,6 +283,41 @@ function processCommand() {
                 img.remove();
             });
         } 
+else if (response.startsWith("OPEN_VIDEO:")) {
+    let videoName = response.split(":")[1].trim();
+    let videoResponse = response.split(":")[2] ? response.split(":")[2].trim() : ">> TRANSMISSION COMPLETE.";
+
+    // Pause looping atom animation
+    video.style.display = "none";
+    video.pause();
+
+    // Create a temporary video element
+    let tempVideo = document.createElement("video");
+    tempVideo.src = videoName;
+    tempVideo.width = monitor.offsetWidth;
+    tempVideo.height = monitor.offsetHeight;
+    tempVideo.autoplay = true;
+    tempVideo.muted = false;
+    tempVideo.style.position = "absolute";
+    tempVideo.style.top = "50%";
+    tempVideo.style.left = "50%";
+    tempVideo.style.transform = "translate(-50%, -50%)";
+    tempVideo.style.zIndex = "1000";
+    document.body.appendChild(tempVideo);
+
+    // When the video finishes, remove it and show the response text
+    tempVideo.onended = function () {
+        tempVideo.remove();
+        output.textContent = videoResponse;
+
+        // Wait a few seconds, then return to looping atom animation
+        setTimeout(() => {
+            output.textContent = "";
+            video.style.display = "block";
+            video.play();
+        }, 5000);
+    };
+} 
         else {
     // Hide the video and display text
     if (video) {
