@@ -94,7 +94,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "WHY": ">> THE MILLION DOLLAR QUESTION.",
         "WHO": ">> I COULD ASK YOU THE SAME QUESTION.",
         "WHO IS THEY": ">> ^\n>> |\n>> |\n>> \n>> \n>> \n>> \n>> \n>> \n>> ",
-        "THEY": " ^                \n |                \n  |                \n\n\n\n\n\n\n\n\n\n\n\n",
+        "THEY": " ^                                  \n |                                  \n  |                                 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
         "HOW": ">> WHAT.",
         "APPENDIX": ">> 'But Haribo may have something sinister going on behind the scenes in Risk: Global Domination, as the players are reporting exploding appendixes. We have quotes from Carson Ronald Landry, an avid player and lover of all things Risk, who was required to have his appendix removed in order to continue playing Risk: GD. He goes on record to say, “I was just playing my favorite little videogame, Risk global domination, when I started getting really bad pains in my stomach in a bad way. I was eliminated from the game early and was left to suffer with the strange growing pains. Thankfully my best friend Evan clutched up the game, which may have saved me from dying that day”'",
         "SIGURD": ">> YOU’RE A LITTLE LOST, FRIEND.",
@@ -152,11 +152,11 @@ document.addEventListener("DOMContentLoaded", function () {
         "EVAN 0001": "OPEN_IMAGE: evanprimelore.png",
         "EVAN 1": "OPEN_IMAGE: evanprimelore.png",
         "THEY ARE WATCHING": "OPEN_IMAGE: Theyarewatching.png",
-	"RUSTYGOLD GAMING": "OPEN_VIDEO: rustygold.webm: >> WELCOME BACK, OPERATOR. DATABASE SYNCHRONIZED. SYSTEM LOG UPDATED. A SYSTEM UPDATE IS RECOMMENDED. CURRENT SYSTEM VERSION\: 5-k2Sp",
-	"RUSTYGOLD": "OPEN_VIDEO: rustygold.webm: >> WELCOME BACK, OPERATOR. DATABASE SYNCHRONIZED. SYSTEM LOG UPDATED. A SYSTEM UPDATE IS RECOMMENDED. CURRENT SYSTEM VERSION\: 5-k2Sp",
-	"RUSTY GOLD": "OPEN_VIDEO: rustygold.webm: >> WELCOME BACK, OPERATOR. DATABASE SYNCHRONIZED. SYSTEM LOG UPDATED. A SYSTEM UPDATE IS RECOMMENDED. CURRENT SYSTEM VERSION\: 5-k2Sp",
-	"RUSTY": "OPEN_VIDEO: rustygold.webm: >> WELCOME BACK, OPERATOR. DATABASE SYNCHRONIZED. SYSTEM LOG UPDATED. A SYSTEM UPDATE IS RECOMMENDED. CURRENT SYSTEM VERSION\: 5-k2Sp",
-	"RUSTYGOLDGAMING": "OPEN_VIDEO: rustygold.webm: >> WELCOME BACK, OPERATOR. DATABASE SYNCHRONIZED. SYSTEM LOG UPDATED. A SYSTEM UPDATE IS RECOMMENDED. CURRENT SYSTEM VERSION\: 5-k2Sp",
+	"RUSTYGOLD GAMING": "OPEN_VIDEO: rustygold.webm: >> WELCOME BACK, OPERATOR. DATABASE SYNCHRONIZED. SYSTEM LOG UPDATED. \n>> A SYSTEM UPDATE IS RECOMMENDED. CURRENT SYSTEM VERSION: 5-k2Sp",
+	"RUSTYGOLD": "OPEN_VIDEO: rustygold.webm: >> WELCOME BACK, OPERATOR. DATABASE SYNCHRONIZED. SYSTEM LOG UPDATED. \n>> A SYSTEM UPDATE IS RECOMMENDED. CURRENT SYSTEM VERSION: 5-k2Sp",
+	"RUSTY GOLD": "OPEN_VIDEO: rustygold.webm: >> WELCOME BACK, OPERATOR. DATABASE SYNCHRONIZED. SYSTEM LOG UPDATED. \n>> A SYSTEM UPDATE IS RECOMMENDED. CURRENT SYSTEM VERSION: 5-k2Sp",
+	"RUSTY": "OPEN_VIDEO: rustygold.webm: >> WELCOME BACK, OPERATOR. DATABASE SYNCHRONIZED. SYSTEM LOG UPDATED. \n>> A SYSTEM UPDATE IS RECOMMENDED. CURRENT SYSTEM VERSION: 5-k2Sp",
+	"RUSTYGOLDGAMING": "OPEN_VIDEO: rustygold.webm: >> WELCOME BACK, OPERATOR. DATABASE SYNCHRONIZED. SYSTEM LOG UPDATED. \n>> A SYSTEM UPDATE IS RECOMMENDED. CURRENT SYSTEM VERSION: 5-k2Sp",
 	"YOURCOUSINCARSON": "OPEN_VIDEO: yourcousincarson.webm: >> IDENTIFICATION CONFIRMED.",
 	"CARSON": "OPEN_VIDEO: yourcousincarson.webm: >> IDENTIFICATION CONFIRMED.",
 	"CARSON LANDRY": "OPEN_VIDEO: yourcousincarson.webm: >> IDENTIFICATION CONFIRMED.",
@@ -306,17 +306,22 @@ else if (response.startsWith("OPEN_VIDEO:")) {
     document.body.appendChild(tempVideo);
 
     // When the video finishes, remove it and show the response text
-    tempVideo.onended = function () {
-        tempVideo.remove();
-        output.textContent = videoResponse;
+tempVideo.onended = function () {
+    tempVideo.remove();
+    output.textContent = videoResponse;
 
-        // Wait a few seconds, then return to looping atom animation
+    // Wait 5 seconds before clearing text, THEN start atom video
+    setTimeout(() => {
+        output.textContent = "";
+        
+        // Ensure the atom video doesn't start playing early
         setTimeout(() => {
-            output.textContent = "";
             video.style.display = "block";
             video.play();
-        }, 5000);
-    };
+        }, 500); // Small delay before playing
+    }, 5000);
+};
+
 } 
         else {
     // Hide the video and display text
