@@ -157,7 +157,7 @@ document.addEventListener("DOMContentLoaded", function () {
 	"X5": ">> GO NOBLES!",
 	"XENON": ">> TODAY, IT IS USED IN LIGHTING APPLICATIONS, MEDICAL PROCEDURES, AND AS A PROPELLANT IN SPACE PROPULSION SYSTEMS. \n>> IN THE FUTURE, IT IS A FANTASTIC SOURCE OF ENERGY.",
         "EVAN": ">> YOU NEED TO BE MORE SPECIFIC.",
-        "EVAN AMMAR": "REDIRECT: https://www.youtube.com/@rustygoldgaming2506",
+        "EVAN AMMAR": "REDIRECT: https://www.google.com/search?q=grandpa+oversized+thin+round+glasses",
         "CIPHER": "OPEN_IMAGE: cipher-message.png",
         "PIGPEN CIPHER": "OPEN_IMAGE: cipher-message.png",
         "PIGPEN": "REDIRECT: https://www.youtube.com/watch?v=JLJQXiIlj8w",
@@ -227,9 +227,12 @@ document.addEventListener("DOMContentLoaded", function () {
         "SYDNEY": "REDIRECT: https://www.genome.gov/genetics-glossary/Recessive-Traits-Alleles",
         "SYDNEY CARTER": "REDIRECT: https://www.genome.gov/genetics-glossary/Recessive-Traits-Alleles",
         "BRYSON": "REDIRECT: https://en.wikipedia.org/wiki/Propaganda",
-        "JACK MOLBACK": "REDIRECT: https://knowyourmeme.com/memes/gay-little-monkey-boy-at-apple-store",
-
-
+        "JACK MOLBACK": ">> GLEEP.",
+        "GLEEP": "REDIRECT: https://knowyourmeme.com/memes/gay-little-monkey-boy-at-apple-store",
+        "STEVEN": "REDIRECT: https://en.wikipedia.org/wiki/Aquaman_film",
+        "TYLER": "REDIRECT: https://en.wikipedia.org/wiki/Sleeveless_shirt",
+        "ZACH": "REDIRECT: https://www.etsy.com/market/dinosaur_bucket_hat",
+        "BLOSSOM TRAIL": "REDIRECT: https://soundcloud.com/yourcousincarson/sets/blossom-trail",
 
 
 
