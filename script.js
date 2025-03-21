@@ -68,6 +68,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "VPN": ">> YOU SHOULD GET ONE.\n>>113.57.218.25",
         "TURTLE": ">> SOME EVANS WERE LUCKIER THAN OTHER EVANS.",
         "HDMI CABLE": ">> GOOD TASTE. REDIRECT: https://soundcloud.com/rustygold-gaming/albums",
+        "GAY APPLE STORE MONKEY": ">> GOOD TASTE. REDIRECT: https://soundcloud.com/rustygold-gaming/albums",
         "RUSTYGOLD SINGING": ">> GOOD TASTE. REDIRECT: https://soundcloud.com/rustygold-gaming/albums",
         "HDMI": ">> GOOD TASTE. REDIRECT: https://soundcloud.com/rustygold-gaming/albums",
         "BEEN ALIVE FOR FIVE SECONDS AND IM ALREADY SURROUNDED BY FANS": ">> REDIRECT: https://littlecaesars.com/en-us/",
@@ -207,6 +208,34 @@ document.addEventListener("DOMContentLoaded", function () {
 	"THOMAS MARTIN": "OPEN_VIDEO: sweetteev.webm: >> IDENTIFICATION CONFIRMED.",
 	"THOMAS ALAN MARTIN": "OPEN_VIDEO: sweetteev.webm: >> IDENTIFICATION CONFIRMED.",
 	"SWEETTEEV": "OPEN_VIDEO: sweetteev.webm: >> IDENTIFICATION CONFIRMED.",
+        "TETRIS": "REDIRECT: https://tetr.io/",
+        "SAWYER": "REDIRECT: https://www.nurturenativenature.com/post/what-a-mushroom-eating-squirrel-teaches-us-about-nature",
+        "ASHLYN": "REDIRECT: https://www.nhl.com/",
+        "WENGER": "REDIRECT: https://www.peakbagger.com/peak.aspx?pid=-125555",
+        "ASHLYN WENGER": "REDIRECT: https://www.peakbagger.com/peak.aspx?pid=-125555",
+        "AVA": ">> ALOUJOULALOULALA?",
+        "AVA JONES": ">> ALOUJOULALOULALA?",
+        "ALOUJOULALOULALA": ">> SOMETHING LIKE THAT.",
+        "SOMETHING LIKE THAT": ">> STOP COPYING ME.",
+        "NICO": "REDIRECT: https://www.fcbarcelona.com/en/tickets/football/regular/laliga/fcbarcelona-realmadrid",
+        "DREW": ">> DYLAN?",
+        "DYLAN": ">> DREW?",
+        "ALEX BOWMAN": ">> IDENTIFICATION AUTHORIZATION INITIATED. WAITING FOR ID...",
+        "BOWMAN": ">> IDENTIFICATION AUTHORIZATION INITIATED. WAITING FOR ID...",
+        "WOAHBOW": ">> IDENTIFICATION CONFIRMED.",
+        "BRAYDEN": "REDIRECT: https://knowyourmeme.com/memes/nerd-emoji/",
+        "SYDNEY": "REDIRECT: https://www.genome.gov/genetics-glossary/Recessive-Traits-Alleles",
+        "SYDNEY CARTER": "REDIRECT: https://www.genome.gov/genetics-glossary/Recessive-Traits-Alleles",
+        "BRYSON": "REDIRECT: https://en.wikipedia.org/wiki/Propaganda",
+        "JACK MOLBACK": "REDIRECT: https://knowyourmeme.com/memes/gay-little-monkey-boy-at-apple-store",
+
+
+
+
+
+
+
+
 
 
 
