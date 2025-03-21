@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "KNOCK KNOCK": ">> WHO’S THERE?",
         "PLASMA GUN": ">> HONESTLY, I WAS SKEPTICAL ABOUT WHAT MADE THE EVAN-EST EVAN SO SPECIAL, AND THEN I SAW THE PLASMA GUN AND I UNDERSTOOD.",
         "HIDE AND SEEK": ">> I’LL HIDE, YOU COUNT.",
-        "32847": "OPEN_DOCUMENT: detectivelore.jpg",
+        "32847": ">>ERROR/: ALBUM NOT FOUND. WAITING FOR RESTORATION CODE...",
         "SEWERS": ">> SMELLY BUT EFFECTIVE.",
         "RIDDLE": ">> BREAD CRUMBS AND BEAVER SPIT",
         "BRAVO": ">> BRAVO PROTOCOL ENGAGED. \n>> IDENTIFICATION CONFIRMED. \n>> TRANSMISSION LOG: 8247-003-9821-6-B4v0-1128-4597-7783-0094",
@@ -154,7 +154,7 @@ document.addEventListener("DOMContentLoaded", function () {
 	"COUSIN CUMSHOT": ">> THEY THOUGHT HE DIED. THEY WERE WRONG. \n>> BANNED IN SIX STATES.",
 	"INFINITY MAN": ">> ANOMALY DETECTED. TIME DILATION EXCEEDS 100%. INTERVENTION PROTOCOL UNAVAILABLE.",
 	"EVAN NEWS 3": ">> UPLOAD IN PROGRESS… ERROR: INDEFINITE PROCESSING LOOP DETECTED.",
-	"X5": ">> GO NOBLES!",
+	"X5": ">> WHERE WAS MONSTER CORP FOUNDED?",
 	"XENON": ">> TODAY, IT IS USED IN LIGHTING APPLICATIONS, MEDICAL PROCEDURES, AND AS A PROPELLANT IN SPACE PROPULSION SYSTEMS. \n>> IN THE FUTURE, IT IS A FANTASTIC SOURCE OF ENERGY.",
         "EVAN": ">> YOU NEED TO BE MORE SPECIFIC.",
         "EVAN AMMAR": "REDIRECT: https://www.google.com/search?q=grandpa+oversized+thin+round+glasses",
@@ -175,7 +175,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "IT IS WHAT YOU DO WITH THE GIFT OF LIFE THAT DETERMINES WHO YOU ARE": ">> WHAT IS YOUR TEAM NAME?",
         "IT IS WHAT YOU DO WITH THE GIFT OF LIFE THAT DETERMINES WHO YOU ARE.": ">> WHAT IS YOUR TEAM NAME?",
         "X5 NOBLES": ">> WHERE WAS MONSTER CORP FOUNDED?",
-        "NOBLES": ">> WHERE WAS MONSTER CORP FOUNDED?",
+        "NOBLES": ">> GO NOBLES!",
         "PRIPYAT": ">> WHAT WAS THE NAME OF THE OTHER ASTRONAUT IN HUGO FIRST?",
         "TROY": ">> DETECTIVE EVANS IMPOSSIBLE NUMBER?",
         "ORIGINAL EVAN": "OPEN_IMAGE: evanprimelore.png",
@@ -222,7 +222,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "DYLAN": ">> DREW?",
         "ALEX BOWMAN": ">> IDENTIFICATION AUTHORIZATION INITIATED. WAITING FOR ID...",
         "BOWMAN": ">> IDENTIFICATION AUTHORIZATION INITIATED. WAITING FOR ID...",
-        "WOAHBOW": ">> IDENTIFICATION CONFIRMED.",
+        "WOAHBOW": ">> IDENTIFICATION CONFIRMED. \n\n>> COOL ID.",
         "BRAYDEN": "REDIRECT: https://knowyourmeme.com/memes/nerd-emoji/",
         "SYDNEY": "REDIRECT: https://www.genome.gov/genetics-glossary/Recessive-Traits-Alleles",
         "SYDNEY CARTER": "REDIRECT: https://www.genome.gov/genetics-glossary/Recessive-Traits-Alleles",
@@ -233,6 +233,10 @@ document.addEventListener("DOMContentLoaded", function () {
         "TYLER": "REDIRECT: https://en.wikipedia.org/wiki/Sleeveless_shirt",
         "ZACH": "REDIRECT: https://www.etsy.com/market/dinosaur_bucket_hat",
         "BLOSSOM TRAIL": "REDIRECT: https://soundcloud.com/yourcousincarson/sets/blossom-trail",
+        "ROLL THE DICE": ">> SNAKE EYES.",
+        "REMEMBER THE ALAMO": ">> open final file.",
+
+
 
 
 
