@@ -75,13 +75,15 @@ document.addEventListener("DOMContentLoaded", function () {
         "SUNDAY NIGHT HEAT": ">> IT’S A SHAME WHAT HAPPENED TO DETECTIVE EVAN.",
         "DETECTIVE EVAN": ">> [REDACTED]",
         "NOLAN CHANCE": ">> SMILE FOR THE CAMERAS! EVERYONE IS LOOKING SO FABULOUS TONIGHT! THAT’S PROBABLY WHAT HE WOULD SAY, IF HE WAS REAL. DOES DETECTIVE EVAN REALLY NOT KNOW? LET'S NOT TELL HIM.",
-        "EVAN5": ">> WHOEVER THEY ARE, [REDACTED]",
+        "EVAN5": ">> WHOEVER THEY ARE, [REDACTED] REDIRECT: https://www.youtube.com/channel/UC6UHzQzwWV2QvGb8CUOcUIQ",
         "AXOLOTL": ">> THERE’S AN AXOLOTL ON THE PINK STAIRS. IS AN AXOLOTL SUPPOSED TO BE THERE? IF YOU ASK AN AXOLOTL IF THEY’LL BE BACK TOMORROW, A PENGUIN WADDLES IN AND THEN THE AXOLOTL’S GONE.",
         "WHO ARE YOU": ">> I COULD ASK YOU THE SAME THING.",
         "WHO ARE YOU?": ">> I COULD ASK YOU THE SAME THING.",
         "WHO AM I?": ">> REDIRECT: https://en.wikipedia.org/wiki/Dissociative_amnesia",
         "WHO AM I": ">> REDIRECT: https://en.wikipedia.org/wiki/Dissociative_amnesia",
         "MICROWAVE": ">> CATALYST.",
+        "CATALYST": ">> STOP COPYING ME.",
+        "STOP COPYING ME": ">> "113.57.218.25.",
         "HINT": ">> TRY ALT+F4.",
         "CLUE": ">> TRY ALT+F4.",
         "HELP": ">> TRY ALT+F4.",
@@ -320,7 +322,7 @@ tempVideo.onended = function () {
         video.style.display = "block";
         video.currentTime = 0; // Restart the atom animation from the beginning
         video.play();
-    }, 8000);
+    }, 6000);
 };
 
 
@@ -351,7 +353,7 @@ tempVideo.onended = function () {
                 output.textContent = "";
                 video.style.display = "block";
                 video.play();
-            }, 5000);
+            }, 8000);
         }
     } else {
         // Handle incorrect input
