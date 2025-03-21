@@ -83,7 +83,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "WHO AM I": ">> REDIRECT: https://en.wikipedia.org/wiki/Dissociative_amnesia",
         "MICROWAVE": ">> CATALYST.",
         "CATALYST": ">> STOP COPYING ME.",
-        "STOP COPYING ME": ">> "113.57.218.25.",
+        "STOP COPYING ME": ">> 113.57.218.25.",
         "HINT": ">> TRY ALT+F4.",
         "CLUE": ">> TRY ALT+F4.",
         "HELP": ">> TRY ALT+F4.",
