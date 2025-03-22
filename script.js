@@ -211,6 +211,8 @@ document.addEventListener("DOMContentLoaded", function () {
         "NAVEEN": "OPEN_IMAGE: naveen.png",
         "NAVEEN ABAYASEKERA": "OPEN_IMAGE: naveen.png",
         "ABAYASEKERA": ">> ABAY ASEK ERA IS MY LAST NAME.",
+        "ACUTE SILLYITIS SYNDROME": ">> IT\'S BEST NOT TO ABBREVIATE IT.",
+        "FOREVERMORE": ">> NAMELESS HERE FOREVERMORE. \n\n>> QUOTH THE RAVEN \"NEVERMORE\"",
         "ALEXA": "REDIRECT: https://en.wikipedia.org/wiki/Kombucha",
         "ALEXA NETHERCUTT": "REDIRECT: https://en.wikipedia.org/wiki/Kombucha",
         "NETHERCUTT": ">> WE <3 NUMBER 33!",
