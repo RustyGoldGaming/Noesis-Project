@@ -235,7 +235,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "BLOSSOM TRAIL": "REDIRECT: https://soundcloud.com/yourcousincarson/sets/blossom-trail",
         "ROLL THE DICE": ">> SNAKE EYES.",
         "REMEMBER THE ALAMO": "OPEN_IMAGE: log13.png",
-
+        "BRAVO": "OPEN_IMAGE: bravo.png",
 
 
 
