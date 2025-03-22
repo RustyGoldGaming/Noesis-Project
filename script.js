@@ -234,7 +234,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "ZACH": "REDIRECT: https://www.etsy.com/market/dinosaur_bucket_hat",
         "BLOSSOM TRAIL": "REDIRECT: https://soundcloud.com/yourcousincarson/sets/blossom-trail",
         "ROLL THE DICE": ">> SNAKE EYES.",
-        "REMEMBER THE ALAMO": ">> open final file.",
+        "REMEMBER THE ALAMO": "OPEN_IMAGE: log13.png",
 
 
 
