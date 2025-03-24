@@ -260,6 +260,9 @@ document.addEventListener("DOMContentLoaded", function () {
         "MICHAEL AMMAR": "REDIRECT: https://store.ammarmagic.com",
         "EVAN CIPHER TM": ">> PATENT PENDING.",
         "EVAN CIPHER": ">> PATENT PENDING.",
+        "MICHAEL": "REDIRECT: https://www.mariowiki.com/Wario",
+        "NICHO": "REDIRECT: https://www.mariowiki.com/Waluigi",
+        "MOSSCAST": "REDIRECT: https://www.youtube.com/watch?v=60Vin95wfxo",
 
 
 
