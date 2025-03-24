@@ -252,6 +252,11 @@ document.addEventListener("DOMContentLoaded", function () {
         "THE NOESIS PROJECT": ">> NEVER HEARD OF IT.",
         "NOESIS PROJECT": ">> NEVER HEARD OF IT.",
         "ALBUM NOT FOUND": "REDIRECT: https://soundcloud.com/jk9squid-games/sets/album-not-found",
+        "WATCHDOGS": "REDIRECT: https://soundcloud.com/jk9squid-games/sets/album-not-found",
+        "WATCH DOGS": "REDIRECT: https://soundcloud.com/jk9squid-games/sets/album-not-found",
+        "WATCHDOGS 2": "REDIRECT: https://soundcloud.com/jk9squid-games/sets/album-not-found",
+        "WATCH DOGS 2": "REDIRECT: https://soundcloud.com/jk9squid-games/sets/album-not-found",
+        "DEDSEC": "REDIRECT: https://soundcloud.com/jk9squid-games/sets/album-not-found",
 
 
 
