@@ -250,6 +250,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "EXPOSE": ">> THAT\'S WHAT HE TRIED TO DO. \n\n>> LOOK WHERE IT GOT HIM.",
         "THE NOESIS PROJECT": ">> NEVER HEARD OF IT.",
         "NOESIS PROJECT": ">> NEVER HEARD OF IT.",
+        "ALBUM NOT FOUND": "REDIRECT: https://soundcloud.com/jk9squid-games/sets/album-not-found",
 
 
 
