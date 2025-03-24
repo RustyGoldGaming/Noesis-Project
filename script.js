@@ -258,6 +258,8 @@ document.addEventListener("DOMContentLoaded", function () {
         "WATCH DOGS 2": "REDIRECT: https://soundcloud.com/jk9squid-games/sets/album-not-found",
         "DEDSEC": "REDIRECT: https://soundcloud.com/jk9squid-games/sets/album-not-found",
         "MICHAEL AMMAR": "REDIRECT: https://store.ammarmagic.com",
+        "EVAN CIPHER TM": ">> PATENT PENDING.",
+        "EVAN CIPHER": ">> PATENT PENDING.",
 
 
 
