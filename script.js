@@ -159,6 +159,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "EVAN": ">> YOU NEED TO BE MORE SPECIFIC.",
         "EVAN AMMAR": "REDIRECT: https://www.google.com/search?q=grandpa+oversized+thin+round+glasses",
         "CIPHER": "OPEN_IMAGE: cipher-message.png",
+        "CYPHER": "OPEN_IMAGE: cipher-message.png",
         "PIGPEN CIPHER": "OPEN_IMAGE: cipher-message.png",
         "PIGPEN": "REDIRECT: https://www.youtube.com/watch?v=JLJQXiIlj8w",
         "PIG-PEN": "REDIRECT: https://www.youtube.com/watch?v=JLJQXiIlj8w",
