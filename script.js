@@ -263,6 +263,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "MICHAEL": "REDIRECT: https://www.mariowiki.com/Wario",
         "NICHO": "REDIRECT: https://www.mariowiki.com/Waluigi",
         "MOSSCAST": "REDIRECT: https://www.youtube.com/watch?v=60Vin95wfxo",
+        "INSCRYPTION": "REDIRECT: https://on.soundcloud.com/FijjDgcnMMFBZfWt6",
 
 
 
