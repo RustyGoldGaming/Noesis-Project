@@ -265,6 +265,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "NICHO": "REDIRECT: https://www.mariowiki.com/Waluigi",
         "MOSSCAST": "REDIRECT: https://www.youtube.com/watch?v=60Vin95wfxo",
         "INSCRYPTION": "REDIRECT: https://on.soundcloud.com/FijjDgcnMMFBZfWt6",
+        "LIFE CYCLES": "REDIRECT: https://soundcloud.com/greg-gregenson/sets/life-cycles",
 
 
 
