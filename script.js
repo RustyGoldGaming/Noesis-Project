@@ -266,7 +266,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "MOSSCAST": "REDIRECT: https://www.youtube.com/watch?v=60Vin95wfxo",
         "INSCRYPTION": "REDIRECT: https://on.soundcloud.com/FijjDgcnMMFBZfWt6",
         "LIFE CYCLES": "REDIRECT: https://soundcloud.com/greg-gregenson/sets/life-cycles",
-        "pM82xv9Cw7L3t0Lxk2SpB4v0e4N9Ux1M": ">> ███████████████████████████████\n>> █ WARNING: SYSTEM OVERRIDE █\n>> ███████████████████████████████\n\n>> UPLOAD COMPLETE.\n>> ESTIMATED TIME TO REACTOR CORE: **3/25 10:30PM**",
+        "pM82xv9Cw7L3t0Lxk2SpB4v0e4N9Ux1M": "REDIRECT: https://youtu.be/1s5WQJQscWU >> ███████████████████████████████\n>> █ WARNING: SYSTEM OVERRIDE █\n>> ███████████████████████████████\n\n>> UPLOAD COMPLETE.",
 
 
 
