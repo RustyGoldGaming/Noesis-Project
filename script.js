@@ -47,6 +47,13 @@ document.addEventListener("DOMContentLoaded", function () {
         "INSIDE JOB": ">> BETTER TO BE AN \"INNIE\" THAN AN \"OUTIE\".",
         "RIDDLE SCHOOL": ">> BREAD CRUMBS AND BEAVER SPIT",
         "ESCAPE ACADEMY": ">> A RESPECTABLE INSTITUTION. ARE YOU A GRADUATE?",
+        "GERALDEAN": ">> ❝AT NIGHT I DREAM OF GERALDEEN CONSISTENTLY❞\n\n" + 
+"                      _../|_  \n" + 
+"                   ='__   _~-.  \n" + 
+"                         .'  ~- ._  \n" + 
+"                                |/~'  \n" + 
+"               .    .    .    .    .  \n" + 
+"           _.`(._.`(._.`(._.`(._.`(._.",
         "GERALDEEN": ">> ❝AT NIGHT I DREAM OF GERALDEEN CONSISTENTLY❞\n\n" + 
 "                      _../|_  \n" + 
 "                   ='__   _~-.  \n" + 
